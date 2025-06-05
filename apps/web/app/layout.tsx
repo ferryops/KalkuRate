@@ -69,7 +69,7 @@ export const metadata: Metadata = {
       "Hitung billing rate resmi berdasarkan standar INKINDO terbaru untuk tender jasa konsultansi konstruksi dan non-konstruksi.",
     images: [
       {
-        url: "https://kalkurate.vercel.app/og-cover.png",
+        url: "https://kalkurate.vercel.app/og-cover.jpg",
         width: 1200,
         height: 630,
         alt: "Kalkulator Billing Rate INKINDO",
@@ -82,7 +82,7 @@ export const metadata: Metadata = {
     description:
       "Alat bantu digital untuk menghitung billing rate berdasarkan pedoman resmi INKINDO 2025. Gratis, akurat, dan mobile friendly.",
     creator: "@ferryops",
-    images: ["https://kalkurate.vercel.app/og-cover.png"],
+    images: ["https://kalkurate.vercel.app/og-cover.jpg"],
   },
   themeColor: "#ffffff",
   icons: {
