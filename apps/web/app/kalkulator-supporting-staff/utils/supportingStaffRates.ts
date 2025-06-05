@@ -1,0 +1,13 @@
+export const supportingStaffRates = {
+  "MANAJER KANTOR": 13800000,
+  "MANAJER KANTOR LAPANGAN/ADMINISTRATOR": 12600000,
+  "SEKRETARIS DWIBAHASA": 13700000,
+  SEKRETARIS: 8800000,
+  "OPERATOR KOMPUTER": 7900000,
+  PENGEMUDI: 6400000,
+  KURIR: 5700000,
+  SATPAM: 5700000,
+  "PESURUH KANTOR": 5500000,
+} as const;
+
+export type SupportingStaffRole = keyof typeof supportingStaffRates;

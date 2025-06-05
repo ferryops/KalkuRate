@@ -1,12 +1,15 @@
-import { indeksStandarRemunerasi } from "../json/indeksStandarRemunerasi";
 import {
-  subProfessionalRates,
+  indeksStandarRemunerasi,
+  Provinsi,
+} from "@/app/kalkulator/json/indeksStandarRemunerasi";
+import {
   SubProfessionalRole,
-} from "../json/subProfessionalRates";
+  subProfessionalRates,
+} from "./subProfessionalRates";
 
 export function getSubProfessionalRate(
   role: SubProfessionalRole,
-  provinsi: keyof typeof indeksStandarRemunerasi
+  provinsi: Provinsi
 ): number {
   const baseRate = subProfessionalRates[role];
   const indeks = indeksStandarRemunerasi[provinsi] ?? 1;

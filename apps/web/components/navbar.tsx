@@ -17,15 +17,15 @@ export default function Navbar() {
 
   return (
     <nav className="w-full flex justify-between items-center px-6 py-4 border-b dark:border-gray-700">
-      <div className="text-xl font-bold">MyApp</div>
+      <div className="text-xl font-bold">KalkuRate</div>
 
       {/* Desktop Navigation */}
       <div className="hidden md:flex items-center space-x-4">
         <Link href="/" className="hover:underline">
-          Home
+          Beranda
         </Link>
-        <Link href="/about" className="hover:underline">
-          About
+        <Link href="/tentang" className="hover:underline">
+          Tentang
         </Link>
         <Button
           variant="outline"
@@ -53,14 +53,14 @@ export default function Navbar() {
                 className="hover:underline"
                 onClick={() => document.body.click()}
               >
-                Home
+                Beranda
               </Link>
               <Link
-                href="/about"
+                href="/tentang"
                 className="hover:underline"
                 onClick={() => document.body.click()}
               >
-                About
+                Tentang
               </Link>
               <Button
                 variant="outline"
