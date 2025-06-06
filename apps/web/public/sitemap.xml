@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>https://kalkurate.vercel.app/</loc>
+  <lastmod>2025-06-05T22:26:12+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://kalkurate.vercel.app/tentang</loc>
+  <lastmod>2025-06-05T22:26:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://kalkurate.vercel.app/kalkulator</loc>
+  <lastmod>2025-06-05T22:26:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://kalkurate.vercel.app/kalkulator-sub-professional</loc>
+  <lastmod>2025-06-05T22:26:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://kalkurate.vercel.app/kalkulator-supporting-staff</loc>
+  <lastmod>2025-06-05T22:26:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>
